@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:8000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="http://localhost:8000/favicon.jpg">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="YLmyiAIzzDgU0W8oE5w4LoW8Q1q73p7r4bHOQw0x">
+
+    <title>JEWELZ</title>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="http://fonts.gstatic.com/">
+    <link rel="stylesheet" href="./JEWELZ_files/font-awesome.min.css">
+    <link href="./JEWELZ_files/css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="./JEWELZ_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./JEWELZ_files/app.css">
+    <!-- Scripts -->
+    <script src="./JEWELZ_files/app.js.download"></script>
+    
+
+    <script src="./JEWELZ_files/bootstrap.bundle.min.js.download" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body><header class="app-navbar-header">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://localhost:8000/">
+            <img src="./JEWELZ_files/JWZ_Logo.png" alt="logo" class="d-inline-block align-text-center">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:8000/shop-ring">RINGS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:8000/shop-necklace">NECKLACES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:8000/shop-bracelet">BRACELETS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:8000/shop-earring">EARRINGS</a>
+                </li>
+                                <li class="nav-item dropdown">
+                    <a id="navbarDropdown" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre="">
+                        <img src="./JEWELZ_files/user.png">
+                        Joshua Needham
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="http://localhost:8000/logout" onclick="event.preventDefault();
+                                            document.getElementById(&#39;logout-form&#39;).submit();">
+                            Logout
+                        </a></li>
+                        <form id="logout-form" action="http://localhost:8000/logout" method="POST" class="d-none">
+                            <input type="hidden" name="_token" value="YLmyiAIzzDgU0W8oE5w4LoW8Q1q73p7r4bHOQw0x">                        </form>
+                        <li><a class="dropdown-item" href="http://localhost:8000/myProfile">My Profile</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:8000/cart"><img src="./JEWELZ_files/cart.png">
+                                            </a>
+                </li>
+                              </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<div>
+    <main>
+        
+
+
+<main>
+
+    <div class="section one" style="animation-name: fade-in-a;">
+        <p class="t2">EXPRESS YOURSELF</p>
+        <p></p>
+        <p class="t2">THE FINEST SUBSTAINABLE JEWELLERY</p>
+        <p class="t3">....</p>
+    </div>
+    <div id="section1">
+        <img src="./JEWELZ_files/pexels-milan-4639591.jpg" alt="express">
+    </div>
+
+    <div class="section two">
+    <button>
+        <i class="gender"></i>
+        <img src="./JEWELZ_files/pexels-milan-4639591.jpg" alt="genders">
+        <h1>HIM</h1>
+     </button>
+    <button>
+        <i class="gender"></i>
+        <img src="./JEWELZ_files/pexels-milan-4639591.jpg" alt="genders">
+        <h1>HER</h1>
+      </button>
+    </div>
+
+    <div class="section three" id="rings">
+        <p class="t1">RINGS</p>
+        <p class="t2">SOMETHING CATCHY</p>
+        <p class="t3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse.</p>
+        <p class="t4">
+            <a href="http://localhost:8000/shop-ring">BROWSE</a>
+        </p>
+    </div>
+    <div id="section3">
+        <img src="./JEWELZ_files/pexels-goran-vrakela-230290.jpg" alt="ring">
+    </div>
+
+    <div class="section four" id="necklaces">
+        <p class="t1">NECKLACES</p>
+        <p class="t2">SOMETHING CATCHY</p>
+        <p class="t3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor.</p>
+        <p class="t4"><a href="http://localhost:8000/shop-necklace">BROWSE</a></p>
+    </div>
+    <div id="section4">
+        <img src="./JEWELZ_files/pexels-goran-vrakela-230290.jpg" alt="necklace">
+    </div>
+
+    <div class="section five" id="bracelets">
+        <p class="t1">BRACELETS</p>
+        <p class="t2">SOMETHING CATCHY</p>
+        <p class="t3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+        <p class="t4"><a href="http://localhost:8000/shop-bracelet">BROWSE</a></p>
+    </div>
+    <div id="section5">
+        <img src="./JEWELZ_files/pexels-goran-vrakela-230290.jpg" alt="bracelet">
+    </div>
+
+    <div class="section six" id="earrings">
+        <p class="t1">EARRINGS</p>
+        <p class="t2">SOMETHING CATCHY</p>
+        <p class="t3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse.</p>
+        <p class="t4"><a href="http://localhost:8000/shop-earring">BROWSE</a></p>
+    </div>
+    <div id="section6">
+        <img src="./JEWELZ_files/pexels-goran-vrakela-230290.jpg" alt="earring">
+    </div>
+
+</main>
+
+
+
+
+    </main>
+ </div>
+
+
+ <footer class="site-footer sticky-bottom footer mt-auto py-3 bg-dark app-footer-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h6>ABOUT JEWELZ</h6>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse.</p>
+            </div>
+            <br>
+            <div class="col-xs-6 col-md-3">
+                <h6>CATEGORIES</h6>
+                <ul class="footer-links">
+                    <li>
+                        <a href="http://localhost:8000/#necklaces">NECKLACES</a>
+                    </li>
+                    <li><a href="http://localhost:8000/#rings">RINGS</a></li>
+                    <li>
+                        <a href="http://localhost:8000/#bracelets">BRACELETS</a>
+                    </li>
+                    <li><a href="http://localhost:8000/#earrings">EARRINGS</a></li>
+                </ul>
+            </div>
+            <br>
+            <div class="col-xs-6 col-md-3">
+                <h6>DISCOVER JEWELZ</h6>
+                <ul class="footer-links">
+                    <li><a href="http://localhost:8000/contact">ABOUT US</a></li>
+                    <li><a href="http://localhost:8000/contact/%23contact">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright © 2022 All Rights Reserved by
+                    <a href="http://localhost:8000/">Jewelz</a>.
+                </p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                    <li><a class="facebook" href="http://localhost:8000/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="http://localhost:8000/"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="instagram" href="http://localhost:8000/"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</body></html>

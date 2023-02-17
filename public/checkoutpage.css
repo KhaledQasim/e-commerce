@@ -1,0 +1,181 @@
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col-25{
+    -ms-flex: 25%;
+    flex: 25%;
+    padding-top: 100px;
+}
+
+.col-50{
+    -ms-flex: 50%;
+    flex: 50%;
+}
+
+.col-75{
+    -ms-flex: 75%;
+    flex: 75%;
+    padding: 100px;
+}
+
+input[type=text]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border-radius: 5px;
+    border: 3px solid #e2a600;
+}
+
+#mainheader{
+    padding-top: 20px;
+    text-align: left;
+}
+
+#billingheader{
+    padding-top: 30px;
+    text-align: left;
+
+}
+
+#namelabel{
+    padding-top: 20px;
+    text-align: left;
+}
+
+#emaillabel{
+    text-align: left;
+}
+
+#addresslabel{
+    padding-top: 20px;
+    text-align: left;
+}
+
+#citylabel{
+    text-align: left;
+}
+
+#paymentheader{
+    padding-top: 30px;
+    text-align: left;
+}
+
+#cardnamelabel{
+    width: 100%;
+    text-align: left;
+}
+
+#cardnolabel{
+    width: 100%;
+    text-align: left;
+}
+
+#expmonthlabel{
+    width: 100%;
+    text-align: left;
+}
+
+#email{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+#fullname{
+    border: 1px solid lightgrey;
+}
+
+#address{
+    border: 1px solid lightgrey;
+}
+
+#city{
+    border: 1px solid lightgrey;
+}
+
+#county{
+    border: 1px solid lightgrey;
+}
+
+#postcode{
+    border: 1px solid lightgrey;
+}
+
+#cardname{
+    border: 1px solid lightgrey;
+}
+
+#cardno{
+    border: 1px solid lightgrey;
+}
+
+#expmonth{
+    border: 1px solid lightgrey;
+}
+
+#expyear{
+    border: 1px solid lightgrey;
+}
+
+#cvv{
+    border: 1px solid lightgrey;
+}
+
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container{
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.btn{
+    color: #e2a600;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#checkoutbtn:hover{
+    background-color: #cc9600;
+}
+
+#checkoutbtn{
+    background-color: #e2a600;
+}
+
+span.price{
+    width: 100%;
+    text-align: right;
+    float: left;
+    color: black;
+    position: relative;
+    bottom: 25px;
+}
+
+
+
+
+
+
+

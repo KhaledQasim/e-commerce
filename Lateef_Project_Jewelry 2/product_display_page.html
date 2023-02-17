@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page -This is the product page</title>
+    <link rel="stylesheet" href="css/product_display.css">
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div class="product-main-container">
+        <div class="products-main-sub-container">
+            <div class="product-container">
+                <div class="product-img"><img src="img/product_img.jpg" onmouseover="mouseHover()"  alt=""></div>
+                <div class="product-description" >
+                    <div class="product-description-title">Wrath of the Zeus</div>
+                    <div class="product-description-small-title">Potrailt</div>
+                    <div class="product-description-price">£3799
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function mouseHover(){
+        var product = document.getElementsByClassName("product-description")
+        for (let index = 0; index < product.length; index++) {
+            product[i].style.display = "block"
+
+        }
+
+    }
+</script>
+</html>

@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.wrapper{
+  width: 100%;
+}
+.atitle h1{
+  color: black;
+  font-size: 46px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 120px;
+
+}
+.about{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0px 80px;
+
+}
+
+.logo{
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.logo img{
+  height: 280px;
+  width: 280px;
+
+  display: block;
+  margin: auto;
+}
+article{
+  width: 90%;
+}
+article h3{
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+}
+
+article p{
+  font-size: 17px;
+  color: black;
+  margin-top: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .wrapper{
+    margin-top: 15px;
+  }
+  .atitle h1{
+    font-size: 28px;
+    text-align: center;
+  }
+  .logo img{
+    height: 200px;
+    width: 200px;
+  }
+  .about{
+    flex-direction: column;
+    margin-top: 10px;
+
+  }
+  article{
+    margin-top: 30px;
+  }
+  article h3{
+    font-size: 18px;
+  }
+  article p{
+    font-size: 15px;
+  }
+
+
+}
+
+.container1{
+    min-height: 60vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+.container1 form h1{
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.container1 form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid black;
+}
+
+.container1 form input::placeholder{
+    color: black;
+}
+
+.container1 form #lastName,
+.container1 form #mobile{
+    margin-left: 20px;
+}
+
+.container1 form h4{
+    color: black;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.container1 form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+
+.container1 form #button{
+    border: none;
+    background: #f7c02b;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.container1 form #button:hover{
+    opacity: 0.7;
+}
+
+.wrap{
+  background: white;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-info{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+
+}
+
+
+.card{
+  background: indianred;
+  padding: 0 20px;
+  margin: 0 10px;
+  width: calc(33% - 20px);
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  border-radius: 15px;
+}
+
+.card-icon{
+  font-size: 28px;
+  background : #f7c02b;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+  background: none;
+  color: #f7c02b;
+  transform: scale(1.6);
+}
+
+.card p{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 0;
+  transition: 0.3s linear;
+    color: black;
+}
+
+.card:hover p{
+  max-height: 40px;
+  opacity: 1;
+}
+
+
+@media screen and (max-width:768px) {
+  .contact-info{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+}
+

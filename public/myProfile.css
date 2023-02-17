@@ -1,0 +1,31 @@
+#banner {
+    background: linear-gradient(to right, #d8ac31, #836f2f);
+}
+
+.order-img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.card-header {
+    background-color: #f0d384;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.card-body {
+    background-color: #faf5e5;
+    border-radius: 0px;
+}
+
+.card {
+    width: 20rem;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.subheader {
+    text-decoration: underline;
+    font-weight: 600;
+}

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-container{
+    
+    display: flex;
+   
+   
+   margin-left: 0vmax;
+  
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    justify-items: center;
+
+}
+.main-container-sub-img{
+   display: flex;
+   align-items: center;
+   align-content: center;
+   justify-items: center;
+   justify-content: center;
+  
+}
+.main-container-sub img{
+    width: 32vmax;
+   
+    margin-left: 10vmax;
+}
+.main-container-sub-heading p{
+   
+    font-size: 2vmax ;
+    font-weight:bold;
+}
+.main-container-sub-heading-small{
+    padding-top: 1vmax;
+    padding-bottom: 2vmax;
+}
+.main-container-sub-heading-small p{
+    
+    font-weight: bold;
+    font-size: 1vmax;
+
+}
+.main-container-sub-paragraph{
+    padding-bottom: 40px;
+    font-size: 0.8vmax;
+}
+.main-container-buttons button{
+   text-align: center;
+   width: 10vmax;
+   padding-top: 0.8vmax;
+   padding-bottom:0.8vmax ;
+   margin-left:5px ;
+   margin-right: 5px;
+   background-color: rgb(252, 145, 4);
+   border: 1px solid rgb(252, 182, 4);
+   color: white;
+   text-transform: uppercase;
+   font-size: x-small;
+   font-weight:100 ;
+   border-radius: 3px;
+  
+}
+.main-container-buttons button:hover{
+
+   background-color: rgb(252, 162, 45);
+    cursor: pointer;
+  
+}
+.main-container-description-big{
+    font-size: 0.8vmax;
+    height: fit-content;
+    word-wrap: normal;
+    padding-top: 2vmax;
+    padding-bottom: 2vmax;
+}
+.main-container-sub-details{
+    width: 25vmax;
+}
+.main-container-product-description{
+    text-align: left;
+}
+#product-description-ulisted{
+    list-style-type:none ;
+    text-align: left;
+    margin-left: -2vmax;
+    
+    
+}
+.product-description-list-point{
+    list-style-type: none;
+    font-size: 0.8vmax;
+    padding-top: 0.3vmax;
+}
+.payments_img_container{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+    justify-items: left;
+    justify-content: left;
+
+}
+.payments_img_container ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+    justify-items: left;
+    justify-content: left;
+    margin: 0%;
+    padding: 0%;
+    width: 10vmax;
+}
+.payments_img_container ul li{
+    width: 2vmax;
+}
+.payments_img_container ul li img{
+    width: 2vmax;
+    margin: 0%;
+    padding-left:0.5vmax ;
+    padding-right:0.5vmax ;
+}
+.information-banner{
+    margin-top: 8vmax;
+    margin-bottom: 8vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+   
+    padding-top:2vmax;
+    padding-bottom:2vmax ;
+    width: 100vmax;
+
+    flex-direction: row;
+    background-color: rgb(248, 248, 233);
+}
+.information-banner-sub-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 1vmax;
+    margin-left:1vmax ;
+    margin-right:1vmax ;
+    width: 30vmax;
+   
+}
+.information-banner-sub-container div{
+    margin-top: 0.5vmax;
+}
+.information-banner-icon img{
+    width: 3vmax;
+}
+
+.information-banner-heading{
+    font-weight: bolder;
+    font-size: 1vmax;
+}
+.information-banner-paragraph{
+    text-align: center;
+    font-size: 0.8vmax;
+}

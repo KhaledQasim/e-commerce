@@ -1,0 +1,19 @@
+.Product-info ul{
+    margin:  0;
+    font-size: 0.9rem;
+}
+.Product-info li{
+    margin: 0;
+    list-style: none;
+    background: url(images/checked.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 1.7rem;
+    margin-right: 0.2rem;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.Product-info ul li span{
+    font-weight: 400;
+}
+
+    
