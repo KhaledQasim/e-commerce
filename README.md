@@ -1,7 +1,7 @@
 # e-commerce
 First clone the project into the htdocs folder of your xampp installation :
 ```
-git clone https://github.com/reesep02/Team-33.git
+https://github.com/KhaledQasim/e-commerce
 ```
 # Test if you have read/write rights to the github repo
 
