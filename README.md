@@ -1,5 +1,5 @@
 # e-commerce
-First clone the project into the htdocs folder of your xampp installation :
+First clone the project :
 ```
 https://github.com/KhaledQasim/e-commerce
 ```
