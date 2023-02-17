@@ -18,7 +18,7 @@ Then create a .env file and copy everything from the .env.example file and fill 
 
 APP_NAME=Jewelz
 
-APP_URL=https://yourHostingPath/e-commerce/public
+APP_URL=https://yourHostingPath/e-commerce/public    //https://210169438.cs2410-web01pvm.aston.ac.uk/Team-33/public
 
 DB_DATABASE=homestead
 
