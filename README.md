@@ -18,7 +18,7 @@ Then create a .env file and copy everything from the .env.example file and fill 
 
 APP_NAME=Jewelz
 
-APP_URL=http://localhost/Team-33/public
+APP_URL=https://yourHostingPath/e-commerce/public
 
 DB_DATABASE=homestead
 
@@ -41,7 +41,7 @@ php artisan voyager:admin admin@admin.com --create
 
 Then go to the Voyager admin pannel by placing admin in the url as such:
 
-http://localhost/Team-33/public/admin
+https://yourHostingPath/e-commerce/public/admin
 
 Login with your recently created admin account.
 
