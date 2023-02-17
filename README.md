@@ -3,23 +3,6 @@ First clone the project into the htdocs folder of your xampp installation :
 ```
 https://github.com/KhaledQasim/e-commerce
 ```
-# Test if you have read/write rights to the github repo
-
-Set your working branch to main branch by running:
-```
-git branch -u origin/main
-```
-
-Create a new textfile then run these commands to add it and commit it then push it.
-```
-git add .
-```
-```
-git commit -m "your message here"
-```
-```
-git push
-```
 # Setting up the project.
 
 Open a terminal in the project folder and run (this will take a while):
